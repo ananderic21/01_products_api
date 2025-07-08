@@ -8,6 +8,7 @@ pipeline {
     stages {
         
         stage('Docker Pull Image push'){
+             steps{
                    sh 'docker pull ananderic/ecomm_backend_api'
             }
         }

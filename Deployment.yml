@@ -16,7 +16,7 @@ spec:
   spec:
     containers:
     - name: productscontainer
-      image: ananderic/products_api
+      image: ananderic/ecomm_backend_api
       ports:
       - containerPort: 8080
 ---
